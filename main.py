@@ -11,8 +11,8 @@ now = dt.datetime.now()
 today = (now.month, now.day)
 # another way to do this: today = (dt.datetime.now().month, dt.datetime.now().day)
 
-my_email = "sujbert1997@gmail.com"
-my_password = "something"
+my_email = os.environ.get("sujbert1997@gmail.com")
+my_password = os.environ.get("")
 
 data = pandas.read_csv('birthdays.csv')
 
