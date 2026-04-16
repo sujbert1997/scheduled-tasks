@@ -3,6 +3,7 @@ import datetime as dt
 import pandas
 import random
 import smtplib
+import os
 
 from main_email_sending import connection
 
